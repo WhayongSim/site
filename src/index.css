@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #000;
+  text-decoration: unset;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header {
+  justify-content: space-between;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  height: 85px;
+  padding-right: 0px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header span {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.sideMenu {
+  width: 250px;
+  position: absolute;
+  right: 0px;
+  z-index: 5;
+  top: 85px;
+  background: #eee;
+  height: calc(100% - 85px);
+}
+.sideMenu > div {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center ;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.menuRoot {
+  height: 85px;
+  line-height: 85px;
+}
+.menWrap {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sideHead {
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+  padding: 15px 0px;
+  justify-content: center;
+}
+.sideHead span {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.pageRoot {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.innerRoot {
+  padding: 50px 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.center {
+  text-align: center;
+}
+
+.slider {
+  padding: 0px 50px;
+}
+
+.slider img {
+  width: 85%;
+  padding-top: 30px;
+  display: inline-block !important;
+}
+.slider2 img {
+  width: 95%;
+}
