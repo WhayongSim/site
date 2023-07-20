@@ -39,6 +39,8 @@ const settings = {
 };
 
 function FashionMain({ open, openMenu, closeMenu }) {
+
+  
   return (
     <div>
       <div className="header">
@@ -85,6 +87,8 @@ function FashionMain({ open, openMenu, closeMenu }) {
 }
 
 function FashionMenswear({ open, openMenu, closeMenu }) {
+
+  const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashion/menswear/03.jpg', '/fashion/menswear/04.jpg', '/fashion/menswear/05.jpg', '/fashion/menswear/06.jpg'];
   return (
     <div
       style={{
