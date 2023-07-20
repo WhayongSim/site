@@ -120,98 +120,14 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
         </div>
       </div>
       <div className="slider">
-        <Slider {...settings}>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/01.jpg" alt="" />
+        <div className="fimageWrap">
+          {data.map((it)=>(
+            <div className="fimage">
+              <img src={it} alt="" />
             </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/02.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/03.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/04.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/05.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/06.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/07.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/08.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/09.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/10.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/11.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/12.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/13.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/14.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/15.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/16.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/17.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/menswear/18.jpg" alt="" />
-            </div>
-          </div>
-        </Slider>
+          ))}  
+        </div>
+        
       </div>
     </div>
   );
