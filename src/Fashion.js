@@ -146,7 +146,7 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
 
             {isViewerOpen && (
         <ImageViewer
-          src={ images }
+          src={ IMGLIST }
           currentIndex={ currentImage }
           disableScroll={ false }
           closeOnClickOutside={ true }
