@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import YouTube from 'react-youtube';
-
+import { FullPage, Slide } from 'react-full-page';
 
 function FashionMain({ open, openMenu, closeMenu }) {
   return (
