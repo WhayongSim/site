@@ -100,9 +100,8 @@ code {
 }
 
 .slider img {
-  width: 85%;
+  width: 100%;
   padding-top: 30px;
-  display: inline-block !important;
 }
 .slider2 img {
   width: 95%;
@@ -147,4 +146,18 @@ code {
     font-size: 16px;
     line-height: 24px;
     overflow: hidden;
+}
+
+
+.fimageWrap {
+      display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.fimage {
+width: 30%;
+    margin: 1% 1% 8px;
 }
