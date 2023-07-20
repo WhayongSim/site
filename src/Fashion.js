@@ -138,7 +138,7 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
         <div className="fimageWrap">
           {IMGLIST.map((it, index)=>(
             <div className="fimage">
-              <img src={it} alt="" onClick={ () => openImageViewer(index) key={ index } }/>
+              <img src={it} alt="" onClick={ () => openImageViewer(index)} key={ index } />
             </div>
           ))}  
         </div>
