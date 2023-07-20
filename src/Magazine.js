@@ -33,7 +33,7 @@ function Magazine({ open, openMenu, closeMenu, data }) {
                 <div className="cardTop" style={{backgroundImage: `url(${it.image_url})`}}></div>
                 <div className="cardBottom">
                   <div className="cardTitle">{it.title}</div>
-                  <div className="cardDate">{it.date}</div>
+                  <div className="cardDate">{it.content}</div>
                 </div>
               </a>
             ))}
