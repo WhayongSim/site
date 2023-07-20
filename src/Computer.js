@@ -38,7 +38,7 @@ function Computer({ open, openMenu, closeMenu }) {
           }}
         >
           <div>
-            <img className="c1" height={500} src="/computer/computer-development.png" alt="" />
+            <img className="c1" height={500} src="/computer01.png" alt="" />
           </div>
           <div style={{ marginLeft: 10 }}>
             <div style={{ fontSize: 30, fontWeight: 'bold', marginBottom: 15 }}>Development</div>
@@ -62,7 +62,7 @@ function Computer({ open, openMenu, closeMenu }) {
           }}
         >
           <div>
-            <img className="c1" height={420} src="/computer/computer-hacking.png" alt="" />
+            <img className="c1" height={420} src="/computer02.png" alt="" />
           </div>
           <div style={{ marginLeft: 10 }}>
             <div style={{ fontSize: 30, fontWeight: 'bold', marginBottom: 15, marginLeft: 28 }}>
