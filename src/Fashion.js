@@ -158,7 +158,8 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
 }
 
 function FashionJewely({ open, openMenu, closeMenu }) {
-
+ const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
   const IMGLIST = ['/fashion/jewerly/01.jpg', '/fashion/jewerly/02.jpg', '/fashion/jewerly/03.jpg',
   '/fashion/jewerly/04.jpg', '/fashion/jewerly/05.jpg', '/fashion/jewerly/06.jpg',
   '/fashion/jewerly/07.jpg', '/fashion/jewerly/08.jpg', '/fashion/jewerly/09.jpg',
@@ -166,6 +167,16 @@ function FashionJewely({ open, openMenu, closeMenu }) {
   '/fashion/jewerly/14.jpg', '/fashion/jewerly/15.jpg', '/fashion/jewerly/16.jpg', '/fashion/jewerly/17.jpg',
   '/fashion/jewerly/18.jpg'
 ];
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
   return (
     <div
       style={{
@@ -199,13 +210,22 @@ function FashionJewely({ open, openMenu, closeMenu }) {
       </div>
       <div className="slider">
         <div className="fimageWrap">
-          {IMGLIST.map((it)=>(
+           {IMGLIST.map((it, index)=>(
             <div className="fimage">
-              <img src={it} alt="" />
+              <img src={it} alt="" onClick={ () => openImageViewer(index)} key={ index } />
             </div>
           ))}  
         </div>
       </div>
+            {isViewerOpen && (
+        <ImageViewer
+          src={ IMGLIST }
+          currentIndex={ currentImage }
+          disableScroll={ false }
+          closeOnClickOutside={ true }
+          onClose={ closeImageViewer }
+        />
+      )}
     </div>
   );
 }
