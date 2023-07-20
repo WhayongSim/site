@@ -43,7 +43,7 @@ right: '0'}}>
           }}
         >
           <div>
-            <img className="c1" height={500} src="/computer01.png" alt="" />
+          <a href="https://www.boannews.com/media/view.asp?idx=39825" target="_blank"><img className="c1" height={500} src="/computer01.png" alt="" /></a>
           </div>
           <div style={{ marginLeft: 10 }}>
             <div style={{ fontSize: 30, fontWeight: 'bold', marginBottom: 15 }}>Development</div>
@@ -66,7 +66,7 @@ right: '0'}}>
           }}
         >
           <div>
-            <img className="c1" height={500} src="/computer02.png" alt="" />
+            <a href="https://www.boannews.com/media/view.asp?idx=42582&kind=4" target="_blank"><img className="c1" height={500} src="/computer02.png" alt="" /></a>
           </div>
           <div style={{ marginLeft: 10 }}>
             <div style={{ fontSize: 30, fontWeight: 'bold', marginBottom: 15, marginLeft: 28 }}>
