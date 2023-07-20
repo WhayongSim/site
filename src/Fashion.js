@@ -58,8 +58,8 @@ function FashionMain({ open, openMenu, closeMenu }) {
             </Link>
           </Slide>
           <Slide>
-            <Link to="/fashion/jewerly" style={{ width: '50%', textAlign: 'center' }}>
-              <img src="/fashion/fashion-jewerly.jpg" width="80%" />
+            <Link to="/fashion/jewerly" style={{ width: '100%', textAlign: 'center' }}>
+              <img src="/ezgif-2-44428726c99a.gif" width="100%" />
             </Link>
           </Slide>
         </FullPage>
