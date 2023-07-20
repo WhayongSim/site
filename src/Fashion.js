@@ -87,8 +87,13 @@ function FashionMain({ open, openMenu, closeMenu }) {
 }
 
 function FashionMenswear({ open, openMenu, closeMenu }) {
-
-  const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashion/menswear/03.jpg', '/fashion/menswear/04.jpg', '/fashion/menswear/05.jpg', '/fashion/menswear/06.jpg'];
+const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashion/menswear/03.jpg',
+  '/fashion/menswear/04.jpg', '/fashion/menswear/05.jpg', '/fashion/menswear/06.jpg',
+  '/fashion/menswear/07.jpg', '/fashion/menswear/08.jpg', '/fashion/menswear/09.jpg',
+  '/fashion/menswear/10.jpg', '/fashion/menswear/11.jpg', '/fashion/menswear/12.jpg', '/fashion/menswear/13.jpg',
+  '/fashion/menswear/14.jpg', '/fashion/menswear/15.jpg', '/fashion/menswear/16', '/fashion/menswear/17.jpg',
+  '/fashion/menswear/18.jpg'
+];
   return (
     <div
       style={{
