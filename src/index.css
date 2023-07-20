@@ -160,3 +160,7 @@ code {
 width: 30%;
     margin: 1% 1% 8px;
 }
+
+.fimage img {
+  cursor: pointer;
+}
