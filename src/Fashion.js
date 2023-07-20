@@ -46,7 +46,7 @@ right: '0'}}>
       >
         <FullPage>
          <Slide>
-             <Link to="/fashion/menswear" style={{ width: '50%', textAlign: 'center' }}>
+             <Link to="/fashion/menswear" style={{ width: '100%', height: '100%', display: 'block', textAlign: 'center' }}>
              <YouTube
                 videoId={"f2GEpw8fxjs"}
                 opts={{
