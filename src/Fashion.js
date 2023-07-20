@@ -102,10 +102,10 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
     '/slovenmode/IMG_6191.JPG', '/slovenmode/IMG_6195.JPG', '/slovenmode/IMG_6196.JPG',
     '/slovenmode/IMG_6199.JPG', '/slovenmode/IMG_6201.JPG', '/slovenmode/IMG_6202.JPG',
     '/slovenmode/IMG_6230.JPG', '/slovenmode/IMG_6231.JPG', '/slovenmode/IMG_6232.JPG',
-     '/slovenmode/IMG_6235.JPG', '/slovenmode/IMG_6239.JPG', '/slovenmode/IMG_6240.JPG',
-     '/slovenmode/IMG_6245.JPG', '/slovenmode/IMG_6248.JPG', '/slovenmode/IMG_6249.JPG',
+     '/slovenmode/IMG_6235.JPG', '/slovenmode/IMG_6239.JPG', '/slovenmode/IMG_6240.jpg',
+     '/slovenmode/IMG_6245.jpg', '/slovenmode/IMG_6248.JPG', '/slovenmode/IMG_6249.JPG',
       '/slovenmode/IMG_6255.JPG', '/slovenmode/IMG_6257.JPG', '/slovenmode/IMG_6258.JPG',
-       '/slovenmode/IMG_6268.JPG', '/slovenmode/IMG_6270.JPG', '/slovenmode/IMG_6271.JPG',
+       '/slovenmode/IMG_6268.jpg', '/slovenmode/IMG_6270.JPG', '/slovenmode/IMG_6271.JPG',
         '/slovenmode/IMG_6279.JPG', '/slovenmode/IMG_6280.JPG', '/slovenmode/IMG_6281.JPG',
 ];
 
