@@ -47,8 +47,8 @@ function FashionMain({ open, openMenu, closeMenu }) {
               //opts(옵션들): 플레이어의 크기나 다양한 플레이어 매개 변수를 사용할 수 있음.
               //밑에서 더 설명하겠습니다.
                 opts={{
-                  width: "100%",
-                  height: "100%",
+                  width: "942",
+                  height: "530",
                   playerVars: {
                     autoplay: 1, //자동재생 O
                     rel: 0, //관련 동영상 표시하지 않음 (근데 별로 쓸모 없는듯..)
