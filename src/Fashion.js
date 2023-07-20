@@ -6,8 +6,13 @@ import { FullPage, Slide } from 'react-full-page';
 function FashionMain({ open, openMenu, closeMenu }) {
   return (
     <div>
-      <div className="header">
-        <div className="flex">
+      <div className="header" style={{position: 'fixed',
+top: '0px',
+left: '0',
+width: '100%',
+paddingLeft: '0px',
+right: '0'}}>
+        <div className="flex" style={{paddingLeft: 50}}>
           <img src="/main/fashion.png" alt="" width={50} />
           <span>Fashion</span>
         </div>
@@ -36,6 +41,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
           alignItems: 'center',
           justifyContent: 'center',
           padding: '50px 30px',
+          paddingTop: 140
         }}
       >
         <FullPage>
