@@ -31,7 +31,7 @@ right: '0'}}>
           )}
         </div>
       </div>
-      <div className="innerRoot">
+      <div className="innerRoot" style={{paddingTop: 140}}>
         <FullPage>
           <Slide>
           <div
