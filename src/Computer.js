@@ -27,15 +27,9 @@ function Computer({ open, openMenu, closeMenu }) {
         </div>
       </div>
       <div className="innerRoot">
-          <FullPage controls>
-        <Slide>
-          <h1>Inner slide content</h1>
-        </Slide>
-        <Slide>
-          <h1>Another slide content</h1>
-        </Slide>
-      </FullPage>
-        <div
+        <FullPage>
+          <Slide>
+          <div
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -56,7 +50,9 @@ function Computer({ open, openMenu, closeMenu }) {
             </div>
           </div>
         </div>
-        <div
+          </Slide>
+          <Slide>
+          <div
           style={{
             marginTop: 50,
             display: 'flex',
@@ -80,6 +76,10 @@ function Computer({ open, openMenu, closeMenu }) {
             </div>
           </div>
         </div>
+          </Slide>
+        </FullPage>
+        
+        
       </div>
     </div>
   );
