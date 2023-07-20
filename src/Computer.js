@@ -59,7 +59,6 @@ right: '0'}}>
           <Slide>
           <div
           style={{
-            marginTop: 50,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
