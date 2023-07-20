@@ -121,7 +121,7 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
       </div>
       <div className="slider">
         <div className="fimageWrap">
-          {data.map((it)=>(
+          {IMGLIST.map((it)=>(
             <div className="fimage">
               <img src={it} alt="" />
             </div>
