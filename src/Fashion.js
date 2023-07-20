@@ -38,12 +38,18 @@ function FashionMain({ open, openMenu, closeMenu }) {
           padding: '50px 30px',
         }}
       >
-        <Link to="/fashion/menswear" style={{ width: '50%', textAlign: 'center' }}>
-          <img src="/fashion/fashion-menswear.jpg" width="80%" />
-        </Link>
-        <Link to="/fashion/jewerly" style={{ width: '50%', textAlign: 'center' }}>
-          <img src="/fashion/fashion-jewerly.jpg" width="80%" />
-        </Link>
+        <FullPage>
+         <Slide>
+             <Link to="/fashion/menswear" style={{ width: '50%', textAlign: 'center' }}>
+              <img src="/fashion/fashion-menswear.jpg" width="80%" />
+            </Link>
+          </Slide>
+          <Slide>
+            <Link to="/fashion/jewerly" style={{ width: '50%', textAlign: 'center' }}>
+              <img src="/fashion/fashion-jewerly.jpg" width="80%" />
+            </Link>
+          </Slide>
+        </FullPage>
       </div>
     </div>
   );
