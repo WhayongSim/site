@@ -23,7 +23,8 @@ getHtml()
           title: $(this).find('div.card-content .entry-title').text(),
           url: $(this).find('a').attr('href'),
           image_url: $(this).find('div.post-bg').attr('style').split('background-image:url(')[1].split(')')[0],
-          date: $(this).find('.card-date').text()
+          date: $(this).find('.card-date').text(),
+	  content: $(this).find('.entry-content').text()
       };
     });
 
