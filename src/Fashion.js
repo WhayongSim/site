@@ -92,7 +92,21 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
   '/fashion/menswear/07.jpg', '/fashion/menswear/08.jpg', '/fashion/menswear/09.jpg',
   '/fashion/menswear/10.jpg', '/fashion/menswear/11.jpg', '/fashion/menswear/12.jpg', '/fashion/menswear/13.jpg',
   '/fashion/menswear/14.jpg', '/fashion/menswear/15.jpg', '/fashion/menswear/16.jpg', '/fashion/menswear/17.jpg',
-  '/fashion/menswear/18.jpg', '/slovenmode/IMG_6123.JPG',  '/slovenmode/IMG_6124.JPG', '/slovenmode/IMG_6125.JPG'
+  '/fashion/menswear/18.jpg', '/slovenmode/IMG_6123.JPG',  '/slovenmode/IMG_6124.JPG', '/slovenmode/IMG_6125.JPG',
+  '/slovenmode/IMG_6131.JPG', '/slovenmode/IMG_6134.JPG', '/slovenmode/IMG_6135.JPG',
+   '/slovenmode/IMG_6148.JPG', '/slovenmode/IMG_6149.JPG', '/slovenmode/IMG_6150.JPG',
+   '/slovenmode/IMG_6166.JPG', '/slovenmode/IMG_6167.JPG', '/slovenmode/IMG_6168.JPG',
+   '/slovenmode/IMG_6171.JPG', '/slovenmode/IMG_6175.JPG', '/slovenmode/IMG_6176.JPG',
+   '/slovenmode/IMG_6182.JPG', '/slovenmode/IMG_6184.JPG', '/slovenmode/IMG_6185.JPG',
+   '/slovenmode/IMG_6186.JPG', '/slovenmode/IMG_6187.JPG', '/slovenmode/IMG_6188.JPG',
+    '/slovenmode/IMG_6191.JPG', '/slovenmode/IMG_6195.JPG', '/slovenmode/IMG_6196.JPG',
+    '/slovenmode/IMG_6199.JPG', '/slovenmode/IMG_6201.JPG', '/slovenmode/IMG_6202.JPG',
+    '/slovenmode/IMG_6230.JPG', '/slovenmode/IMG_6231.JPG', '/slovenmode/IMG_6232.JPG',
+     '/slovenmode/IMG_6235.JPG', '/slovenmode/IMG_6239.JPG', '/slovenmode/IMG_6240.JPG',
+     '/slovenmode/IMG_6245.JPG', '/slovenmode/IMG_6248.JPG', '/slovenmode/IMG_6249.JPG',
+      '/slovenmode/IMG_6255.JPG', '/slovenmode/IMG_6257.JPG', '/slovenmode/IMG_6258.JPG',
+       '/slovenmode/IMG_6268.JPG', '/slovenmode/IMG_6270.JPG', '/slovenmode/IMG_6271.JPG',
+        '/slovenmode/IMG_6279.JPG', '/slovenmode/IMG_6280.JPG', '/slovenmode/IMG_6281.JPG',
 ];
 
   const openImageViewer = useCallback((index) => {
