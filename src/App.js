@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Main from './Main';
 import Computer from './Computer';
 import Fashion from './Fashion';
+import Magazine from './Magazine';
+import mgData from './mg.json';
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -45,6 +47,17 @@ function App() {
                 open={open}
                 openMenu={() => setOpen(true)}
                 closeMenu={() => setOpen(false)}
+              />
+            }
+          />
+	  <Route
+            path="/magazine"
+            element={
+              <Magazine
+                open={open}
+                openMenu={() => setOpen(true)}
+                closeMenu={() => setOpen(false)}
+                data={mgData}
               />
             }
           />

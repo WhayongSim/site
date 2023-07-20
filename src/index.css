@@ -107,3 +107,41 @@ code {
 .slider2 img {
   width: 95%;
 }
+
+.cardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.card {
+  width: 46%;
+    background: #fff;
+    margin: 2% 2% 8px 2%;
+    min-height: 0;
+}
+
+.cardTop {
+  background-color: #eee;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 56.25%;
+  width: 100%;
+}
+.cardTitle {
+  margin-top: 9px;
+  margin-bottom: 0;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0px 10px;
+  word-break: keep-all;
+}
+
+.cardDate {
+  text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
