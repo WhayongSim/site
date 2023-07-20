@@ -1,7 +1,9 @@
+import React, { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import { FullPage, Slide } from 'react-full-page';
+import ImageViewer from 'react-simple-image-viewer';
 
 function FashionMain({ open, openMenu, closeMenu }) {
   return (
@@ -82,6 +84,9 @@ justifyContent: 'center' }}>
 }
 
 function FashionMenswear({ open, openMenu, closeMenu }) {
+
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
 const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashion/menswear/03.jpg',
   '/fashion/menswear/04.jpg', '/fashion/menswear/05.jpg', '/fashion/menswear/06.jpg',
   '/fashion/menswear/07.jpg', '/fashion/menswear/08.jpg', '/fashion/menswear/09.jpg',
@@ -89,6 +94,16 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
   '/fashion/menswear/14.jpg', '/fashion/menswear/15.jpg', '/fashion/menswear/16.jpg', '/fashion/menswear/17.jpg',
   '/fashion/menswear/18.jpg'
 ];
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
   return (
     <div
       style={{
@@ -121,13 +136,23 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
       </div>
       <div className="slider">
         <div className="fimageWrap">
-          {IMGLIST.map((it)=>(
+          {IMGLIST.map((it, index)=>(
             <div className="fimage">
-              <img src={it} alt="" />
+              <img src={it} alt="" onClick={ () => openImageViewer(index) key={ index } }/>
             </div>
           ))}  
         </div>
       </div>
+
+            {isViewerOpen && (
+        <ImageViewer
+          src={ images }
+          currentIndex={ currentImage }
+          disableScroll={ false }
+          closeOnClickOutside={ true }
+          onClose={ closeImageViewer }
+        />
+      )}
     </div>
   );
 }
