@@ -113,6 +113,7 @@ code {
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: space-between;
+      padding: 0px 50px;
 }
 
 .card {
@@ -130,13 +131,14 @@ code {
   width: 100%;
 }
 .cardTitle {
-     font-size: 16px;
+     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
     margin-bottom: 0;
     margin-top: 9px;
     padding: 0 20px;
     word-break: keep-all;
+  
 }
 
 .cardDate {
