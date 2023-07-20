@@ -132,13 +132,20 @@ const IMGLIST = ['/fashion/menswear/01.jpg', '/fashion/menswear/02.jpg', '/fashi
             </div>
           ))}  
         </div>
-        
       </div>
     </div>
   );
 }
 
 function FashionJewely({ open, openMenu, closeMenu }) {
+
+  const IMGLIST = ['/fashion/jewerly/01.jpg', '/fashion/jewerly/02.jpg', '/fashion/jewerly/03.jpg',
+  '/fashion/jewerly/04.jpg', '/fashion/jewerly/05.jpg', '/fashion/jewerly/06.jpg',
+  '/fashion/jewerly/07.jpg', '/fashion/jewerly/08.jpg', '/fashion/jewerly/09.jpg',
+  '/fashion/jewerly/10.jpg', '/fashion/jewerly/11.jpg', '/fashion/jewerly/12.jpg', '/fashion/jewerly/13.jpg',
+  '/fashion/jewerly/14.jpg', '/fashion/jewerly/15.jpg', '/fashion/jewerly/16.jpg', '/fashion/jewerly/17.jpg',
+  '/fashion/jewerly/18.jpg'
+];
   return (
     <div
       style={{
@@ -170,99 +177,14 @@ function FashionJewely({ open, openMenu, closeMenu }) {
           )}
         </div>
       </div>
-      <div className="slider slider2">
-        <Slider {...settings}>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/01.jpg" alt="" />
+      <div className="slider">
+        <div className="fimageWrap">
+          {IMGLIST.map((it)=>(
+            <div className="fimage">
+              <img src={it} alt="" />
             </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/02.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/03.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/04.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/05.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/06.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/07.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/08.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/09.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/10.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/11.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/12.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/13.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/14.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/15.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/16.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/17.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div className="center">
-              <img src="/fashion/jewerly/18.jpg" alt="" />
-            </div>
-          </div>
-        </Slider>
+          ))}  
+        </div>
       </div>
     </div>
   );
