@@ -116,10 +116,10 @@ code {
 }
 
 .card {
-  width: 29%;
-    background: #fff;
-    margin: 2% 2% 8px 2%;
+  background: #fff;
+    margin: 1% 1% 8px;
     min-height: 0;
+    width: 31%;
 }
 
 .cardTop {
