@@ -2,8 +2,13 @@ import { FullPage, Slide } from 'react-full-page';
 function Computer({ open, openMenu, closeMenu }) {
   return (
     <div className="pageRoot">
-      <div className="header">
-        <div className="flex">
+      <div className="header" style={{position: 'fixed',
+top: '0px',
+left: '0',
+width: '100%',
+paddingLeft: '0px',
+right: '0'}}>
+        <div className="flex" style={{paddingLeft: 50}}>
           <img src="/main/computer.png" alt="" width={50} />
           <span>Computer</span>
         </div>
