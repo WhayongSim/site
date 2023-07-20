@@ -52,6 +52,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                     modestbranding: 1, // 컨트롤 바에 youtube 로고를 표시하지 않음
                   },
                 }}
+                onReady={(e)=>{e.target.playVideo();}}
                 onEnd={(e)=>{e.target.stopVideo(0);}}      
               />
             </Link>
