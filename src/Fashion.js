@@ -64,7 +64,14 @@ right: '0'}}>
             </Link>
           </Slide>
           <Slide>
-            <Link to="/fashion/jewerly" style={{ width: '100%', textAlign: 'center', display: 'block' }}>
+            <Link to="/fashion/jewerly" style={{ width: '100%',
+textAlign: 'center',
+display: 'block',
+width: '950px',
+height: '500px',
+display: 'flex',
+alignItems: 'center',
+justifyContent: 'center' }}>
               <img src="/ezgif-2-44428726c99a.gif" width="100%" style={{maxWidth: 480}} />
             </Link>
           </Slide>
