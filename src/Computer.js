@@ -1,3 +1,4 @@
+import { FullPage, Slide } from 'react-full-page';
 function Computer({ open, openMenu, closeMenu }) {
   return (
     <div className="pageRoot">
@@ -26,6 +27,14 @@ function Computer({ open, openMenu, closeMenu }) {
         </div>
       </div>
       <div className="innerRoot">
+          <FullPage controls>
+        <Slide>
+          <h1>Inner slide content</h1>
+        </Slide>
+        <Slide>
+          <h1>Another slide content</h1>
+        </Slide>
+      </FullPage>
         <div
           style={{
             display: 'flex',
