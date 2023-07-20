@@ -26,7 +26,7 @@ function Magazine({ open, openMenu, closeMenu, data }) {
             )}
           </div>
         </div>
-        <div className="innerRoot">
+        <div className="innerRoot" style={{background: '#ddd'}}>
           <div className="cardWrap">
 {data.map((it)=>(
               <a className="card" href={it.url} target="_blank">
