@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function Info({ lang }) {
+function Info({ lang, onKo, onEn }) {
   return (
     <div>
       <div
@@ -37,6 +37,7 @@ function Info({ lang }) {
           paddingRight: "15px",
           fontSize: "18px",
         }}
+        onClick={onEn}
       >
         ENG
       </div>
@@ -47,6 +48,7 @@ function Info({ lang }) {
           paddingRight: "15px",
           fontSize: "18px",
         }}
+        onClick={onKo}
       >
         KOR
       </div>
