@@ -15,27 +15,27 @@ function App() {
           <div className="sideMenu" onClick={() => setOpen(false)}>
             <div>
               <Link to="/">
-                <img src="/home.png" alt="" width="50" />
+                HOME
               </Link>
             </div>
             <div>
               <Link to="/info">
-                <img src="/info.png" alt="" width="50" />
+                 INFO
               </Link>
             </div>
             <div>
               <Link to="/computer">
-                <img src="/main/computer.png" alt="" width="50" />
+                COMPUTER
               </Link>
             </div>
             <div>
               <Link to="/fashion">
-                <img src="/main/fashion.png" alt="" width="50" />
+                FASHION
               </Link>
             </div>
             <div>
               <Link to="/magazine">
-                <img src="/main/magazine.png" alt="" width="50" />
+                MAGAZINE
               </Link>
             </div>
           </div>
