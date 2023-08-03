@@ -218,7 +218,7 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
           right: "0px",
           zIndex: "10",
         }}
-      > 
+      >
         <div className="flex" style={{ paddingLeft: 50 }}>
           <img src="/main/fashion.png" alt="" width={50} />
           <span>Fashion - Menswear</span>
@@ -256,7 +256,7 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
           )}
         </div>
       </div>
-      <div className="slider">
+      <div className="slider" style={{ marginTop: 100 }}>
         <div className="fimageWrap">
           {IMGLIST.map((it, index) => (
             <div className="fimage">
@@ -373,7 +373,7 @@ function FashionJewely({ open, openMenu, closeMenu }) {
           )}
         </div>
       </div>
-      <div className="slider">
+      <div className="slider" style={{ marginTop: 100 }}>
         <div className="fimageWrap">
           {IMGLIST.map((it, index) => (
             <div className="fimage">
