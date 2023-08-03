@@ -69,7 +69,7 @@ function Computer({ open, openMenu, closeMenu }) {
                   <img
                     className="c1"
                     height={500}
-                    src="/computer02.png"
+                    src="/computer/computer-development.png"
                     alt=""
                   />
                 </a>
@@ -113,7 +113,7 @@ function Computer({ open, openMenu, closeMenu }) {
                   <img
                     className="c1"
                     height={500}
-                    src="/computer01.png"
+                    src="/computer/computer-hacking.png"
                     alt=""
                   />
                 </a>
