@@ -70,6 +70,7 @@ function Info({ lang, onKo, onEn }) {
             whiteSpace: "pre-wrap",
             lineHeight: "2",
             fontWeight: 600,
+            width: "60%",
           }}
         >
           <div>
@@ -126,14 +127,15 @@ function Info({ lang, onKo, onEn }) {
               </div>
             )}
           </div>
+
           <div>
             <a href="https://instagram.com/systemengineering" target="_black">
               <img src="/instagram.png" width="20px" />
             </a>
           </div>
         </div>
-        <div>
-          <img src="/profile.jpg" width={"80%"} />
+        <div style={{ width: "30%" }}>
+          <img src="/profile.jpg" width={"100%"} />
         </div>
       </div>
     </div>
