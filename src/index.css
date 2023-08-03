@@ -18,15 +18,18 @@ a {
 }
 
 .react-simple-image-viewer__previous {
-  color: #000;
+      color: #000!important;
+    opacity: 0.8!important;
 }
 
 .react-simple-image-viewer__next {
-  color: #000;
+      color: #000!important;
+    opacity: 0.8!important;
 }
 
 .react-simple-image-viewer__close {
-  color: #000;
+      color: #000!important;
+    opacity: 0.8!important;
 
 }
 .vertical-center {
