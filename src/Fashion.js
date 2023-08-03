@@ -67,25 +67,32 @@ function FashionMain({ open, openMenu, closeMenu }) {
       >
         <FullPage>
           <Slide>
-            <Link
-              to="/fashion/menswear"
-              style={{
-                width: "100%",
-                textAlign: "center",
-                display: "block",
-                width: "950px",
-                height: "500px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <img
-                src="/slovenmode-logo.jpg"
-                width="100%"
-                style={{ maxWidth: 480 }}
-              />
-            </Link>
+            <div style={{ position: "relative" }}>
+              <div
+                style={{ position: "absolute", bottom: "-75px", zIndex: "0" }}
+              >
+                <img width={66} src="/scroll_down.png" />
+              </div>
+              <Link
+                to="/fashion/menswear"
+                style={{
+                  width: "100%",
+                  textAlign: "center",
+                  display: "block",
+                  width: "950px",
+                  height: "500px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  src="/slovenmode-logo.jpg"
+                  width="100%"
+                  style={{ maxWidth: 480 }}
+                />
+              </Link>
+            </div>
           </Slide>
           <Slide>
             <Link
