@@ -1,5 +1,9 @@
 function Magazine({ open, openMenu, closeMenu, data }) {
-  console.log(data);
+  ///console.log(data);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
   return (
     <div className="pageRoot">
       <div
@@ -14,7 +18,7 @@ function Magazine({ open, openMenu, closeMenu, data }) {
           zIndex: "10",
         }}
       >
-        <div className="flex" style={{ paddingLeft: 50 }}>
+        <div className="flex" style={{ paddingLeft: 50 }} onClick={scrollToTop}>
           <img src="/main/magazine.png" alt="" width={50} />
           <span>Magazine</span>
         </div>
