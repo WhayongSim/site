@@ -182,18 +182,35 @@ function Computer({ open, openMenu, closeMenu, lang }) {
                     marginBottom: 15,
                   }}
                 >
-                  Development & Network
+                  {lang === "en" ? (
+                    <span>Development & Networky</span>
+                  ) : (
+                    <span>개발 & 네트워크</span>
+                  )}
                 </div>
                 <div style={{ fontSize: 20, lineHeight: 2, paddingRight: 40 }}>
-                  Wargame sites are websites designed to improve hacking skills
-                  and information security competencies, offering a variety of
-                  hacking challenges to practice your hacking skills without
-                  harming real systems. As an operator of the international
-                  wargame site Hack-Me, I was in charge of posting challenges,
-                  web development and server management. After attending the
-                  Black Hat conference in Las Vegas, USA, I realized the
-                  importance of community and I've organized and hosted security
-                  conferences.
+                  {lang === "en" && (
+                    <div>
+                      Wargame sites are websites designed to improve hacking
+                      skills and information security competencies, offering a
+                      variety of hacking challenges to practice your hacking
+                      skills without harming real systems. As an operator of the
+                      international wargame site Hack-Me, I was in charge of
+                      posting challenges, web development and server management,
+                      and I've organized and hosted security conferences.
+                    </div>
+                  )}
+
+                  {lang === "ko" && (
+                    <div>
+                      워게임 사이트는 해킹 기술과 정보 보안 역량을 향상하기 위해
+                      설계된 웹사이트로, 다양한 해킹 과제를 제공하여 실제
+                      시스템에 피해를 주지 않고 해킹 기술을 연습할 수 있습니다.
+                      국제 워게임 사이트 핵미의 운영자로서 문제 출제와 웹 개발
+                      및 서버 관리를 담당하며, 보안 콘퍼런스를 직접 개최하여
+                      진행했습니다.
+                    </div>
+                  )}
                   <a
                     style={{ display: "block", marginTop: 10, color: "blue" }}
                     href="https://www.boannews.com/media/view.asp?idx=39825"
