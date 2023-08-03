@@ -63,7 +63,7 @@ function Info() {
           </div>
         </div>
         <div>
-          <img src="/profile.jpg" width={"60%"} />
+          <img src="/profile.jpg" width={"80%"} />
         </div>
       </div>
     </div>
