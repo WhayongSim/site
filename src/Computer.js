@@ -59,6 +59,7 @@ function Computer({ open, openMenu, closeMenu }) {
                 alignItems: "center",
                 justifyContent: "center",
                 padding: "0px 30px",
+                height: "70%",
               }}
             >
               <div>
@@ -103,6 +104,7 @@ function Computer({ open, openMenu, closeMenu }) {
                 alignItems: "center",
                 justifyContent: "center",
                 padding: "0px 30px",
+                height: "70%",
               }}
             >
               <div>
