@@ -62,8 +62,8 @@ function Computer({ open, openMenu, closeMenu }) {
                 height: "70%",
               }}
             >
-              <div>
-                <img src='/scroll_down.png' />
+              <div style={{ position: "absolute", bottom: 0 }}>
+                <img width={66} src="/scroll_down.png" />
               </div>
               <div>
                 <a
@@ -106,7 +106,7 @@ function Computer({ open, openMenu, closeMenu }) {
                   held every summer in Las Vegas, USA, with the HackingForChiMac
                   team, and made it to the finals.
                   <a
-                    style={{ display: "block", marginTop: 10, color: 'blue' }}
+                    style={{ display: "block", marginTop: 10, color: "blue" }}
                     href="https://www.boannews.com/media/view.asp?idx=42582&kind=4"
                     target="_blank"
                   >
@@ -126,6 +126,9 @@ function Computer({ open, openMenu, closeMenu }) {
                 height: "70%",
               }}
             >
+              <div style={{ position: "absolute", top: 0 }}>
+                <img width={66} src="/scroll_up.png" />
+              </div>
               <div>
                 <a
                   href="https://www.boannews.com/media/view.asp?idx=39825"
@@ -158,7 +161,7 @@ function Computer({ open, openMenu, closeMenu }) {
                   web development and server management, and I've organized and
                   hosted security conferences.
                   <a
-                    style={{ display: "block", marginTop: 10, color: 'blue' }}
+                    style={{ display: "block", marginTop: 10, color: "blue" }}
                     href="https://www.boannews.com/media/view.asp?idx=39825"
                     target="_blank"
                   >
