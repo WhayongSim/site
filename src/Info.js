@@ -11,6 +11,7 @@ function Info() {
           alignItems: "center",
           fontSize: "28px",
           padding: "0px 15px",
+          fontWeight: 600,
         }}
       >
         <div>Whayong Sim</div>
@@ -36,6 +37,7 @@ function Info() {
             wordWrap: "break-word",
             whiteSpace: "pre-wrap",
             lineHeight: "2",
+            fontWeight: 600,
           }}
         >
           <div>
