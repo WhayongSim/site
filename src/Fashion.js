@@ -218,8 +218,8 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
           right: "0px",
           zIndex: "10",
         }}
-      >
-        <div className="flex">
+      > 
+        <div className="flex" style={{ paddingLeft: 50 }}>
           <img src="/main/fashion.png" alt="" width={50} />
           <span>Fashion - Menswear</span>
         </div>
