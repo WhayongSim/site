@@ -40,7 +40,7 @@ a {
 }
 .sideMenu {
   width: 250px;
-  position: absolute;
+  position: fixed;
   right: 0px;
   z-index: 5;
   top: 85px;
