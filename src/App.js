@@ -9,7 +9,7 @@ import Info from "./Info";
 import mgData from "./mg.json";
 function App() {
   const [open, setOpen] = useState(false);
-  const [lang, setLang] = useState('ko');
+  const [lang, setLang] = useState("ko");
   return (
     <BrowserRouter>
       <div>
@@ -43,10 +43,20 @@ function App() {
               }}
             >
               <div>
-                <img src="/kor.png" width={50} style={{ margin: "0px 20px" }} onClick={() => setLang("ko")} />
+                <img
+                  src="/kor.png"
+                  width={50}
+                  style={{ margin: "0px 20px" }}
+                  onClick={() => setLang("ko")}
+                />
               </div>
               <div>
-                <img src="/usa.png" width={50} style={{ margin: "0px 20px" }} onClick={() => setLang("en")} />
+                <img
+                  src="/usa.png"
+                  width={50}
+                  style={{ margin: "0px 20px" }}
+                  onClick={() => setLang("en")}
+                />
               </div>
             </div>
           </div>
@@ -61,6 +71,7 @@ function App() {
                 open={open}
                 openMenu={() => setOpen(true)}
                 closeMenu={() => setOpen(false)}
+                lang={lang}
               />
             }
           />
