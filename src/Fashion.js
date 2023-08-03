@@ -207,7 +207,18 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
         width: "100%",
       }}
     >
-      <div className="header">
+      <div
+        className="header"
+        style={{
+          position: "fixed",
+          top: "0px",
+          left: "0px",
+          width: "100%",
+          paddingLeft: "0px",
+          right: "0px",
+          zIndex: "10",
+        }}
+      >
         <div className="flex">
           <img src="/main/fashion.png" alt="" width={50} />
           <span>Fashion - Menswear</span>
@@ -312,7 +323,18 @@ function FashionJewely({ open, openMenu, closeMenu }) {
         width: "100%",
       }}
     >
-      <div className="header">
+      <div
+        className="header"
+        style={{
+          position: "fixed",
+          top: "0px",
+          left: "0px",
+          width: "100%",
+          paddingLeft: "0px",
+          right: "0px",
+          zIndex: "10",
+        }}
+      >
         <div className="flex">
           <img src="/jewelry.png" alt="" width={50} />
           <span>Fashion - Jewelry</span>
