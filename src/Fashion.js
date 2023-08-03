@@ -115,6 +115,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  position: "relative",
                 }}
               >
                 <img
