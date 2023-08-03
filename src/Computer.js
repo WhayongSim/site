@@ -82,12 +82,18 @@ function Computer({ open, openMenu, closeMenu }) {
                     fontWeight: "bold",
                     marginBottom: 15,
                     marginLeft: 28,
-                    
                   }}
                 >
                   Hacking & Security
                 </div>
-                <div style={{ fontSize: 20, lineHeight: 2, marginLeft: 28, paddingRight: 15, }}>
+                <div
+                  style={{
+                    fontSize: 20,
+                    lineHeight: 2,
+                    marginLeft: 28,
+                    paddingRight: 15,
+                  }}
+                >
                   When I was a high school student, I became interested in
                   hacking and security technologies after be awarded the school
                   hacking defense competition, and I participated in various
@@ -96,6 +102,13 @@ function Computer({ open, openMenu, closeMenu }) {
                   CTF, the world's authoritative hacking defense competition
                   held every summer in Las Vegas, USA, with the HackingForChiMac
                   team, and made it to the finals.
+                  <a
+                    style={{ display: "block", marginTop: 10 }}
+                    href="https://www.boannews.com/media/view.asp?idx=42582&kind=4"
+                    target="_blank"
+                  >
+                    Article URL
+                  </a>
                 </div>
               </div>
             </div>
@@ -129,12 +142,11 @@ function Computer({ open, openMenu, closeMenu }) {
                     fontSize: 30,
                     fontWeight: "bold",
                     marginBottom: 15,
-                    
                   }}
                 >
                   Development & Network
                 </div>
-                <div style={{ fontSize: 20, lineHeight: 2, paddingRight: 15, }}>
+                <div style={{ fontSize: 20, lineHeight: 2, paddingRight: 15 }}>
                   Wargame sites are websites designed to improve hacking skills
                   and information security competencies, offering a variety of
                   hacking challenges to practice your hacking skills without
@@ -142,6 +154,13 @@ function Computer({ open, openMenu, closeMenu }) {
                   wargame site Hack-Me, I was in charge of posting challenges,
                   web development and server management, and I've organized and
                   hosted security conferences.
+                  <a
+                    style={{ display: "block", marginTop: 10 }}
+                    href="https://www.boannews.com/media/view.asp?idx=39825"
+                    target="_blank"
+                  >
+                    Article URL
+                  </a>
                 </div>
               </div>
             </div>
