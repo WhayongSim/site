@@ -12,7 +12,7 @@ a {
 }
 
 #ReactSimpleImageViewer {
-  z-index: 100,
+  z-index: 100;
         background-color: #fff;
     
 }
