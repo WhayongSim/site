@@ -9,7 +9,7 @@ import Info from "./Info";
 import mgData from "./mg.json";
 function App() {
   const [open, setOpen] = useState(false);
-  const [lang, setLang] = useState("ko");
+  const [lang, setLang] = useState("en");
   return (
     <BrowserRouter>
       <div>
@@ -75,7 +75,16 @@ function App() {
               />
             }
           />
-          <Route path="/info" element={<Info lang={lang} />} />
+          <Route
+            path="/info"
+            element={
+              <Info
+                lang={lang}
+                onKo={() => setLang("ko")}
+                onEn={() => setLang("en")}
+              />
+            }
+          />
           <Route
             path="/fashion/*"
             element={
