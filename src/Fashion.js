@@ -68,7 +68,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
       >
         <FullPage>
           <Slide>
-            <div>
+            <div style={{ height: "100%" }}>
               <Link
                 to="/fashion/menswear"
                 style={{
@@ -76,7 +76,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   textAlign: "center",
                   display: "block",
                   width: "950px",
-                  height: "500px",
+                  height: "70%",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -91,7 +91,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                 <div
                   style={{
                     position: "absolute",
-                    bottom: "-108px",
+                    bottom: "-95px",
                     zIndex: "0",
                     width: "100%",
                     textAlign: "center",
