@@ -25,8 +25,8 @@ function Info() {
         className="infoContent"
         style={{
           display: "flex",
-          paddingTop: "50px",
-          paddingLeft: "50px",
+          paddingTop: "80px",
+          paddingLeft: "60px",
           alignItems: "center",
         }}
       >
