@@ -1,7 +1,13 @@
-function Info({ open, openMenu, closeMenu }) {
+import { Link } from "react-router-dom";
+function Info() {
   return (
     <div>
-      <div className="infoHeader">Whayong Sim</div>
+      <div className="infoHeader">
+        <div>Whayong Sim</div>
+        <div>
+          <Link to="/">Home</Link>
+        </div>
+      </div>
       <div className="infoContent">
         <div>
           대한민국 서울을 기반으로 개발자, 디렉터, 에디터로 활동하고 있습니다.
