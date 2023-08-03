@@ -23,7 +23,9 @@ function Info() {
           관련 주제로 기사 원고를 기고하고 있습니다. 모든 문의 사항은
           whayongsim@gmail.com 이메일로 연락주시기 바랍니다.
         </div>
-        <div></div>
+        <div>
+          <img src="/profile.jpg" />
+        </div>
       </div>
     </div>
   );
