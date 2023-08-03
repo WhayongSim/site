@@ -40,28 +40,23 @@ const crwlFunction = () => {
           };
         });
         const data = ulList.filter((n) => n.title);
-        vlist = [...vlist, ...data];
-        callback(null);
+        vlist = [...data];
+        return true;
       });
     },
     function (err) {
       console.log(vlist);
       console.log(vlist.length);
-
+      fs.writeFileSync("../src/mg.json", JSON.stringify(vlist));
       setTimeout(() => {
         crwlFunction();
       }, 1000 * 60 * 60 * 24);
-      /*
-        const data = ulList.filter((n) => n.title);
-          fs.writeFileSync("test.json", JSON.stringify(data));
-          return data;
-          */
+        
     }
   );
 };
 
 const startFunction = () => {
-  console.log('start');
   crwlFunction();
 };
 
