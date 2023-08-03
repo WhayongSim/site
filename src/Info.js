@@ -42,7 +42,7 @@ function Info() {
         >
           <div>
             {" "}
-            모든 문의 사대한민국 서울을 기반으로 개발자, 디렉터, 에디터로
+            대한민국 서울을 기반으로 개발자, 디렉터, 에디터로
             활동하고 있습니다. 주로 패션 브랜드의 디렉터로 일하면서 남성복
             디자이너 브랜드 슬로븐 모드(Sloven Mode)의 설립자로서 웹사이트
             개발부터 디렉팅과 마케팅 등의 업무를 맡아 대구패션페어(DFF) 전시회에
@@ -56,7 +56,7 @@ function Info() {
             있습니다.
           </div>
           <div style={{ padding: "15px 0px" }}>
-            whayongsim@gmail.com 이메일로 연락주시기 바랍니다.
+            모든 문의 사항은 whayongsim@gmail.com 이메일로 연락주시기 바랍니다.
           </div>
           <div>
             <a href="https://instagram.com/systemengineering" target="_black">
