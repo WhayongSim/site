@@ -57,7 +57,9 @@ function Info() {
             whayongsim@gmail.com 이메일로 연락주시기 바랍니다.
           </div>
           <div>
-            <img src="/instagram.png" width="20px" />
+            <a>
+              <img src="/instagram.png" width="20px" />
+            </a>
           </div>
         </div>
         <div>
