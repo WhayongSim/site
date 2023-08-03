@@ -81,7 +81,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
               }}
             >
               <img
-                src="/slovenmode-logo.png"
+                src="/slovenmode-logo.jpg"
                 width="100%"
                 style={{ maxWidth: 480 }}
               />
