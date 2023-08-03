@@ -40,7 +40,7 @@ const crwlFunction = () => {
           };
         });
         const data = ulList.filter((n) => n.title);
-        vlist = [...data];
+        vlist = [...vlist, ...data];
         callback(null);
       });
     },
