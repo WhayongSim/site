@@ -60,9 +60,12 @@ function Computer({ open, openMenu, closeMenu }) {
                 justifyContent: "center",
                 padding: "0px 30px",
                 height: "70%",
+                position: "relative",
               }}
             >
-              <div style={{ position: "absolute", bottom: 0 }}>
+              <div
+                style={{ position: "absolute", bottom: "-75px", zIndex: "0" }}
+              >
                 <img width={66} src="/scroll_down.png" />
               </div>
               <div>
@@ -94,7 +97,7 @@ function Computer({ open, openMenu, closeMenu }) {
                     fontSize: 20,
                     lineHeight: 2,
                     marginLeft: 28,
-                    paddingRight: 15,
+                    paddingRight: 40,
                   }}
                 >
                   When I was a high school student, I became interested in
@@ -124,9 +127,10 @@ function Computer({ open, openMenu, closeMenu }) {
                 justifyContent: "center",
                 padding: "0px 30px",
                 height: "70%",
+                positon: "relative",
               }}
             >
-              <div style={{ position: "absolute", top: 0 }}>
+              <div style={{ position: "absolute", top: "-55px" }}>
                 <img width={66} src="/scroll_up.png" />
               </div>
               <div>
@@ -152,7 +156,7 @@ function Computer({ open, openMenu, closeMenu }) {
                 >
                   Development & Network
                 </div>
-                <div style={{ fontSize: 20, lineHeight: 2, paddingRight: 15 }}>
+                <div style={{ fontSize: 20, lineHeight: 2, paddingRight: 40 }}>
                   Wargame sites are websites designed to improve hacking skills
                   and information security competencies, offering a variety of
                   hacking challenges to practice your hacking skills without
