@@ -98,7 +98,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                 <div
                   style={{
                     position: "absolute",
-                    bottom: "-95px",
+                    bottom: "-88px",
                     zIndex: "0",
                     width: "100%",
                     textAlign: "center",
