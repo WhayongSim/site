@@ -43,10 +43,10 @@ function App() {
               }}
             >
               <div>
-                <img src="/kor.png" width={50} style={{ margin: "0px 20px" }} />
+                <img src="/kor.png" width={50} style={{ margin: "0px 20px" }} onClick={() => setLang("ko")} />
               </div>
               <div>
-                <img src="/usa.png" width={50} style={{ margin: "0px 20px" }} />
+                <img src="/usa.png" width={50} style={{ margin: "0px 20px" }} onClick={() => setLang("en")} />
               </div>
             </div>
           </div>
