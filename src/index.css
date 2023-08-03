@@ -133,18 +133,20 @@ code {
     font-weight: 600;
     line-height: 24px;
     margin-bottom: 0;
-    margin-top: 9px;
-    padding: 0 20px;
     word-break: keep-all;
   
 }
 
+.cardBottom {
+    padding: 20px 23px;
+}
+
 .cardDate {
-   padding: 10px 20px;
   color: #4d4d4f;
     font-size: 16px;
     line-height: 24px;
     overflow: hidden;
+  margin-top: 10px;
 }
 
 
