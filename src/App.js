@@ -75,7 +75,7 @@ function App() {
               />
             }
           />
-          <Route path="/info" element={<Info />} />
+          <Route path="/info" element={<Info lang={lang} />} />
           <Route
             path="/fashion/*"
             element={
