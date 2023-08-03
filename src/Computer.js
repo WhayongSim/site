@@ -98,7 +98,11 @@ function Computer({ open, openMenu, closeMenu, lang }) {
                     marginLeft: 28,
                   }}
                 >
-                  Hacking & Security
+                  {lang === "en" ? (
+                    <span>Hacking & Security</span>
+                  ) : (
+                    <span>해킹 & 보안</span>
+                  )}
                 </div>
                 <div
                   style={{
