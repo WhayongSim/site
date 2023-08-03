@@ -41,7 +41,7 @@ const crwlFunction = () => {
         });
         const data = ulList.filter((n) => n.title);
         vlist = [...data];
-        return true;
+        callback(null);
       });
     },
     function (err) {
@@ -61,6 +61,7 @@ const crwlFunction = () => {
 };
 
 const startFunction = () => {
+  console.log('start');
   crwlFunction();
 };
 
