@@ -11,6 +11,7 @@ function Computer({ open, openMenu, closeMenu }) {
           width: "100%",
           paddingLeft: "0px",
           right: "0",
+          zIndex: 10
         }}
       >
         <div className="flex" style={{ paddingLeft: 50 }}>
