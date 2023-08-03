@@ -57,7 +57,7 @@ function Info() {
             whayongsim@gmail.com 이메일로 연락주시기 바랍니다.
           </div>
           <div>
-            <a>
+            <a href="https://instagram.com/systemengineering" target="_black">
               <img src="/instagram.png" width="20px" />
             </a>
           </div>
