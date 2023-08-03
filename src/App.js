@@ -44,16 +44,7 @@ function App() {
               />
             }
           />
-          <Route
-            path="/info"
-            element={
-              <Main
-                open={open}
-                openMenu={() => setOpen(true)}
-                closeMenu={() => setOpen(false)}
-              />
-            }
-          />
+          <Route path="/info" element={<Info />} />
           <Route
             path="/fashion/*"
             element={
