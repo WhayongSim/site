@@ -175,6 +175,21 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
     "/fashion/menswear/028.JPG",
     "/fashion/menswear/029.JPG",
     "/fashion/menswear/030.JPG",
+    "/fashion/menswear/031.JPG",
+    "/fashion/menswear/032.JPG",
+    "/fashion/menswear/033.JPG",
+    "/fashion/menswear/034.JPG",
+    "/fashion/menswear/035.JPG",
+    "/fashion/menswear/036.JPG",
+    "/fashion/menswear/037.JPG",
+    "/fashion/menswear/038.JPG",
+    "/fashion/menswear/039.JPG",
+    "/fashion/menswear/040.JPG",
+    "/fashion/menswear/041.JPG",
+    "/fashion/menswear/042.JPG",
+    "/fashion/menswear/043.JPG",
+    "/fashion/menswear/044.JPG",
+    "/fashion/menswear/045.JPG",
   ];
 
   const openImageViewer = useCallback((index) => {
