@@ -29,6 +29,11 @@ function App() {
             <div>
               <Link to="/magazine">Magazine</Link>
             </div>
+
+            <div>
+              <div><img src="/kor.png" width={50} /></div>
+              <div><img src="/usa.png" width={50}/></div>
+            </div>
           </div>
         )}
 
