@@ -1,5 +1,8 @@
 import { FullPage, Slide } from "react-full-page";
 function Computer({ open, openMenu, closeMenu }) {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <div className="pageRoot">
       <div
@@ -14,7 +17,7 @@ function Computer({ open, openMenu, closeMenu }) {
           zIndex: 10
         }}
       >
-        <div className="flex" style={{ paddingLeft: 50 }}>
+        <div className="flex" style={{ paddingLeft: 50, cursor: "pointer" }} onClick={scrollToTop}>
           <img src="/main/computer.png" alt="" width={50} />
           <span>Computer</span>
         </div>
