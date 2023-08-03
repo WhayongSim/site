@@ -32,7 +32,7 @@ function Info({ lang, onKo, onEn }) {
       </div>
       <div
         style={{
-          fontWeight: lang === "en" ? 600 : 400,
+          fontWeight: lang === "en" ? 800 : 400,
           textAlign: "right",
           paddingRight: "15px",
           fontSize: "18px",
@@ -44,7 +44,7 @@ function Info({ lang, onKo, onEn }) {
       </div>
       <div
         style={{
-          fontWeight: lang === "ko" ? 600 : 400,
+          fontWeight: lang === "ko" ? 800 : 400,
           textAlign: "right",
           paddingRight: "15px",
           fontSize: "18px",
