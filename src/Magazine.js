@@ -18,7 +18,7 @@ function Magazine({ open, openMenu, closeMenu, data }) {
           zIndex: "10",
         }}
       >
-        <div className="flex" style={{ paddingLeft: 50 }} onClick={scrollToTop}>
+        <div className="flex" style={{ paddingLeft: 50, cursor: "pointer" }} onClick={scrollToTop}>
           <img src="/main/magazine.png" alt="" width={50} />
           <span>Magazine</span>
         </div>
