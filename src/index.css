@@ -16,6 +16,19 @@ a {
         background-color: #fff;
     
 }
+
+.react-simple-image-viewer__previous {
+  color: #000;
+}
+
+.react-simple-image-viewer__next {
+  color: #000;
+}
+
+.react-simple-image-viewer__close {
+  color: #000;
+
+}
 .vertical-center {
   margin: 0;
   position: absolute;
