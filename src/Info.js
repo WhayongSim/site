@@ -14,7 +14,7 @@ function Info() {
           fontWeight: 600,
         }}
       >
-        <div>Whayong Sim</div>
+        <div><Link to="/">Whayong Sim</Link></div>
         <div style={{ fontSize: 17 }}>
           <Link style={{ marginRight: 30 }} to="/">
             Home
