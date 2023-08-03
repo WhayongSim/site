@@ -68,7 +68,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
       >
         <FullPage>
           <Slide>
-            <div style={{ position: "relative" }}>
+            <div>
               <div
                 style={{
                   position: "absolute",
@@ -76,6 +76,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   zIndex: "0",
                   width: "100%",
                   textAlign: "center",
+                  position: "relative"
                 }}
               >
                 <img width={66} src="/scroll_down.png" />
