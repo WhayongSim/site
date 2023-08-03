@@ -314,7 +314,7 @@ function FashionJewely({ open, openMenu, closeMenu }) {
     >
       <div className="header">
         <div className="flex">
-          <img src="/main/fashion.png" alt="" width={50} />
+          <img src="/jewelry.png" alt="" width={50} />
           <span>Fashion - Jewelry</span>
         </div>
 
