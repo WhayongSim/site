@@ -1,11 +1,11 @@
-import './App.css';
-import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Main from './Main';
-import Computer from './Computer';
-import Fashion from './Fashion';
-import Magazine from './Magazine';
-import mgData from './mg.json';
+import "./App.css";
+import React, { useState } from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Main from "./Main";
+import Computer from "./Computer";
+import Fashion from "./Fashion";
+import Magazine from "./Magazine";
+import mgData from "./mg.json";
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -14,16 +14,29 @@ function App() {
         {open && (
           <div className="sideMenu" onClick={() => setOpen(false)}>
             <div>
-              <Link to="/">Home</Link>
+              <Link to="/">
+                <img src="/home.png" alt="" width="50" />
+              </Link>
             </div>
             <div>
-              <Link to="/computer">Computer</Link>
+              <Link to="/info">
+                <img src="/info.png" alt="" width="50" />
+              </Link>
             </div>
             <div>
-              <Link to="/fashion">Fashion</Link>
+              <Link to="/computer">
+                <img src="/main/computer.png" alt="" width="50" />
+              </Link>
             </div>
             <div>
-              <Link to="/magazine">Magazine</Link>
+              <Link to="/fashion">
+                <img src="/main/fashion.png" alt="" width="50" />
+              </Link>
+            </div>
+            <div>
+              <Link to="/magazine">
+                <img src="/main/magazine.png" alt="" width="50" />
+              </Link>
             </div>
           </div>
         )}
@@ -50,7 +63,7 @@ function App() {
               />
             }
           />
-	  <Route
+          <Route
             path="/magazine"
             element={
               <Magazine
