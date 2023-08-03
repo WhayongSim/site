@@ -39,7 +39,7 @@ function App() {
                 position: "absolute",
                 bottom: "0",
                 width: "100%",
-                marginBottom: "0px",
+                marginBottom: "15px",
               }}
             >
               <div>
