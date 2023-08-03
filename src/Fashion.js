@@ -17,6 +17,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
           width: "100%",
           paddingLeft: "0px",
           right: "0",
+          zIndex: 10,
         }}
       >
         <div className="flex" style={{ paddingLeft: 50 }}>
@@ -101,25 +102,38 @@ function FashionMain({ open, openMenu, closeMenu }) {
             </div>
           </Slide>
           <Slide>
-            <Link
-              to="/fashion/jewerly"
-              style={{
-                width: "100%",
-                textAlign: "center",
-                display: "block",
-                width: "950px",
-                height: "500px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <img
-                src="/ezgif-2-44428726c99a.gif"
-                width="100%"
-                style={{ maxWidth: 480 }}
-              />
-            </Link>
+            <div style={{ position: "relative" }}>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "-108px",
+                  zIndex: "0",
+                  width: "100%",
+                  textAlign: "center",
+                }}
+              >
+                <img width={66} src="/scroll_down.png" />
+              </div>
+              <Link
+                to="/fashion/jewerly"
+                style={{
+                  width: "100%",
+                  textAlign: "center",
+                  display: "block",
+                  width: "950px",
+                  height: "500px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  src="/ezgif-2-44428726c99a.gif"
+                  width="100%"
+                  style={{ maxWidth: 480 }}
+                />
+              </Link>
+            </div>
           </Slide>
         </FullPage>
       </div>
