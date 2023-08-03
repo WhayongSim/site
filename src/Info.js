@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function Info() {
+function Info({lang}) {
   return (
     <div>
       <div
@@ -28,6 +28,8 @@ function Info() {
           <Link to="/magazine">Magazine</Link>
         </div>
       </div>
+      <div style={{fontWeight: lang === "en" ? 600 : 400}}>ENG</div>
+      <div style={{fontWeight: lang === "ko" ? 600 : 400}}>KOR</div>
       <div
         className="infoContent"
         style={{
