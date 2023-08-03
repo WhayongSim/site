@@ -106,13 +106,13 @@ function FashionMain({ open, openMenu, closeMenu }) {
               <div
                 style={{
                   position: "absolute",
-                  top: "-108px",
+                  top: "-58px",
                   zIndex: "0",
                   width: "100%",
                   textAlign: "center",
                 }}
               >
-                <img width={66} src="/scroll_down.png" />
+                <img width={66} src="/scroll_up.png" />
               </div>
               <Link
                 to="/fashion/jewerly"
