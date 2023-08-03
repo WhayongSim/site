@@ -15,9 +15,9 @@ function Info() {
       >
         <div>Whayong Sim</div>
         <div style={{ fontSize: 18 }}>
-          <Link to="/">Home</Link>
-          <Link to="/computer">Computer</Link>
-          <Link to="/fashion">Fashion</Link>
+          <Link style={{marginRight: 30}} to="/">Home</Link>
+          <Link style={{marginRight: 30}} to="/computer">Computer</Link>
+          <Link style={{marginRight: 30}} to="/fashion">Fashion</Link>
           <Link to="/magazine">Magazine</Link>
         </div>
       </div>
