@@ -132,7 +132,7 @@ body {
      width: 100%;
 }
 
- .cardTop:hover::after {
+ .cardTop:hover:after {
       opacity: 1
 
  }
