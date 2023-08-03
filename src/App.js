@@ -9,6 +9,7 @@ import Info from "./Info";
 import mgData from "./mg.json";
 function App() {
   const [open, setOpen] = useState(false);
+  const [lang, setLang] = useState('ko');
   return (
     <BrowserRouter>
       <div>
