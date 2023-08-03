@@ -199,7 +199,7 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
     "/slovenmode/IMG_6245.jpg",
     "/slovenmode/IMG_6248.JPG",
     "/slovenmode/IMG_6249.JPG",
-    "/slovenmode/IMG_6255.JPG",
+    "/slovenmode/IMG_6255.jpg",
     "/slovenmode/IMG_6257.JPG",
     "/slovenmode/IMG_6258.JPG",
     "/slovenmode/IMG_6268.jpg",
