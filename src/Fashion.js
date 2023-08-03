@@ -6,6 +6,9 @@ import { FullPage, Slide } from "react-full-page";
 import ImageViewer from "react-simple-image-viewer";
 
 function FashionMain({ open, openMenu, closeMenu }) {
+ const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
   return (
     <div>
       <div
