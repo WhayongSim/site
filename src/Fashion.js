@@ -151,6 +151,9 @@ function FashionMain({ open, openMenu, closeMenu }) {
 }
 
 function FashionMenswear({ open, openMenu, closeMenu }) {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const IMGLIST = [
@@ -228,7 +231,11 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
           zIndex: "10",
         }}
       >
-        <div className="flex" style={{ paddingLeft: 50 }}>
+        <div
+          className="flex"
+          style={{ paddingLeft: 50, cursor: "ponter" }}
+          onClick={scrollToTop}
+        >
           <img src="/main/fashion.png" alt="" width={50} />
           <span>Fashion - Menswear</span>
         </div>
@@ -294,6 +301,9 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
 }
 
 function FashionJewely({ open, openMenu, closeMenu }) {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const IMGLIST = [
@@ -344,7 +354,11 @@ function FashionJewely({ open, openMenu, closeMenu }) {
           zIndex: "10",
         }}
       >
-        <div className="flex" style={{ paddingLeft: 50 }}>
+        <div
+          className="flex"
+          style={{ paddingLeft: 50, cursor: "ponter" }}
+          onClick={scrollToTop}
+        >
           <img src="/jewelry.png" alt="" width={50} />
           <span>Fashion - Jewelry</span>
         </div>
