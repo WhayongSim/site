@@ -233,7 +233,7 @@ function FashionMenswear({ open, openMenu, closeMenu }) {
       >
         <div
           className="flex"
-          style={{ paddingLeft: 50, cursor: "ponter" }}
+          style={{ paddingLeft: 50, cursor: "pointer" }}
           onClick={scrollToTop}
         >
           <img src="/main/fashion.png" alt="" width={50} />
@@ -356,7 +356,7 @@ function FashionJewely({ open, openMenu, closeMenu }) {
       >
         <div
           className="flex"
-          style={{ paddingLeft: 50, cursor: "ponter" }}
+          style={{ paddingLeft: 50, cursor: "pointer" }}
           onClick={scrollToTop}
         >
           <img src="/jewelry.png" alt="" width={50} />
