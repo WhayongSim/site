@@ -196,8 +196,10 @@ function Computer({ open, openMenu, closeMenu, lang }) {
                       variety of hacking challenges to practice your hacking
                       skills without harming real systems. As an operator of the
                       international wargame site Hack-Me, I was in charge of
-                      posting challenges, web development and server management,
-                      and I've organized and hosted security conferences.
+                      posting challenges, web development and server management.
+                      After attending the Black Hat conference in Las Vegas,
+                      USA, I realized the importance of community and I've
+                      organized and hosted security conferences.
                     </div>
                   )}
 
@@ -207,8 +209,9 @@ function Computer({ open, openMenu, closeMenu, lang }) {
                       설계된 웹사이트로, 다양한 해킹 과제를 제공하여 실제
                       시스템에 피해를 주지 않고 해킹 기술을 연습할 수 있습니다.
                       국제 워게임 사이트 핵미의 운영자로서 문제 출제와 웹 개발
-                      및 서버 관리를 담당하며, 보안 콘퍼런스를 직접 개최하여
-                      진행했습니다.
+                      및 서버 관리를 담당했습니다. 이후, 미국 라스베이거스에서
+                      진행된 Black Hat 콘퍼런스 참여하고, 커뮤니티의 중요성을
+                      깨닫게 되어 보안 콘퍼런스를 직접 개최했습니다.
                     </div>
                   )}
                   <a
