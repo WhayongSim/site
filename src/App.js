@@ -15,27 +15,27 @@ function App() {
           <div className="sideMenu" onClick={() => setOpen(false)}>
             <div>
               <Link to="/">
-                HOME
+                Home
               </Link>
             </div>
             <div>
               <Link to="/info">
-                 INFO
+                 Info
               </Link>
             </div>
             <div>
               <Link to="/computer">
-                COMPUTER
+                Computer
               </Link>
             </div>
             <div>
               <Link to="/fashion">
-                FASHION
+                Fashion
               </Link>
             </div>
             <div>
               <Link to="/magazine">
-                MAGAZINE
+                Magazine
               </Link>
             </div>
           </div>
