@@ -132,7 +132,8 @@ body {
      width: 100%;
 }
 
-.card:hover .cardTop::after {
+ .cardTop:hover::after {
+      opacity: 1
 
  }
  .cardTitle {
