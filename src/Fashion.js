@@ -335,7 +335,7 @@ function FashionJewely({ open, openMenu, closeMenu }) {
           zIndex: "10",
         }}
       >
-        <div className="flex">
+        <div className="flex" style={{ paddingLeft: 50 }}>
           <img src="/jewelry.png" alt="" width={50} />
           <span>Fashion - Jewelry</span>
         </div>
