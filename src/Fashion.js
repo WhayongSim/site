@@ -69,18 +69,6 @@ function FashionMain({ open, openMenu, closeMenu }) {
         <FullPage>
           <Slide>
             <div>
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: "-108px",
-                  zIndex: "0",
-                  width: "100%",
-                  textAlign: "center",
-                  position: "relative"
-                }}
-              >
-                <img width={66} src="/scroll_down.png" />
-              </div>
               <Link
                 to="/fashion/menswear"
                 style={{
@@ -92,6 +80,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  position: "relative",
                 }}
               >
                 <img
@@ -99,6 +88,17 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   width="100%"
                   style={{ maxWidth: 480 }}
                 />
+                <div
+                  style={{
+                    position: "absolute",
+                    bottom: "-108px",
+                    zIndex: "0",
+                    width: "100%",
+                    textAlign: "center",
+                  }}
+                >
+                  <img width={66} src="/scroll_down.png" />
+                </div>
               </Link>
             </div>
           </Slide>
