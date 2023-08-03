@@ -103,18 +103,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
             </div>
           </Slide>
           <Slide>
-            <div style={{ position: "relative" }}>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "-58px",
-                  zIndex: "0",
-                  width: "100%",
-                  textAlign: "center",
-                }}
-              >
-                <img width={66} src="/scroll_up.png" />
-              </div>
+            <div style={{ height: "100%" }}>
               <Link
                 to="/fashion/jewerly"
                 style={{
@@ -122,7 +111,7 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   textAlign: "center",
                   display: "block",
                   width: "950px",
-                  height: "500px",
+                  height: "70%",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -133,6 +122,17 @@ function FashionMain({ open, openMenu, closeMenu }) {
                   width="100%"
                   style={{ maxWidth: 480 }}
                 />
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "-58px",
+                    zIndex: "0",
+                    width: "100%",
+                    textAlign: "center",
+                  }}
+                >
+                  <img width={66} src="/scroll_up.png" />
+                </div>
               </Link>
             </div>
           </Slide>
