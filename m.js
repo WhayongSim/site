@@ -47,7 +47,7 @@ const crwlFunction = () => {
     function (err) {
       console.log(vlist);
       console.log(vlist.length);
-      fs.writeFileSync("../src/mg.json", JSON.stringify(vlist));
+      fs.writeFileSync("/home/web/site/src/mg.json", JSON.stringify(vlist));
       setTimeout(() => {
         crwlFunction();
       }, 1000 * 60 * 60 * 24);
