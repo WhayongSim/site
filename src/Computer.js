@@ -1,5 +1,5 @@
 import { FullPage, Slide } from "react-full-page";
-function Computer({ open, openMenu, closeMenu }) {
+function Computer({ open, openMenu, closeMenu, lang }) {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
@@ -108,14 +108,30 @@ function Computer({ open, openMenu, closeMenu }) {
                     paddingRight: 40,
                   }}
                 >
-                  When I was a high school student, I became interested in
-                  hacking and security technologies after be awarded the school
-                  hacking defense competition, and I participated in various
-                  hacking competitions while learning various hacking
-                  technologies. In the end, I participated in the DEF CON 22
-                  CTF, the world's authoritative hacking defense competition
-                  held every summer in Las Vegas, USA, with the HackingForChiMac
-                  team, and made it to the finals.
+                  {lang === "en" && (
+                    <div>
+                      When I was a high school student, I became interested in
+                      hacking and security technologies after be awarded the
+                      school hacking defense competition, and I participated in
+                      various hacking competitions while learning various
+                      hacking technologies. In the end, I participated in the
+                      DEF CON 22 CTF, the world's authoritative hacking defense
+                      competition held every summer in Las Vegas, USA, with the
+                      HackingForChiMac team, and made it to the finals.
+                    </div>
+                  )}
+
+                  {lang === "ko" && (
+                    <div>
+                      고등학생 때 교내 해킹 방어 대회 수상을 계기로 해킹과 보안
+                      기술에 관심을 갖게 되어, 각종 해킹 기술을 익히며 다양한
+                      해킹 대회에 참가했습니다. 결국, 매년 여름 미국
+                      라스베이거스에서 진행되는 세계 최대의 해킹 방어대회 DEF
+                      CON 22 CTF에 HackingForChiMac 팀으로 참가해 본선에
+                      진출하는 쾌거를 이뤘습니다.
+                    </div>
+                  )}
+
                   <a
                     style={{ display: "block", marginTop: 10, color: "blue" }}
                     href="https://www.boannews.com/media/view.asp?idx=42582&kind=4"
