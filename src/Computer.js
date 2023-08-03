@@ -14,10 +14,14 @@ function Computer({ open, openMenu, closeMenu }) {
           width: "100%",
           paddingLeft: "0px",
           right: "0",
-          zIndex: 10
+          zIndex: 10,
         }}
       >
-        <div className="flex" style={{ paddingLeft: 50, cursor: "pointer" }} onClick={scrollToTop}>
+        <div
+          className="flex"
+          style={{ paddingLeft: 50, cursor: "pointer" }}
+          onClick={scrollToTop}
+        >
           <img src="/main/computer.png" alt="" width={50} />
           <span>Computer</span>
         </div>
@@ -166,8 +170,10 @@ function Computer({ open, openMenu, closeMenu }) {
                   hacking challenges to practice your hacking skills without
                   harming real systems. As an operator of the international
                   wargame site Hack-Me, I was in charge of posting challenges,
-                  web development and server management, and I've organized and
-                  hosted security conferences.
+                  web development and server management. After attending the
+                  Black Hat conference in Las Vegas, USA, I realized the
+                  importance of community and I've organized and hosted security
+                  conferences.
                   <a
                     style={{ display: "block", marginTop: 10, color: "blue" }}
                     href="https://www.boannews.com/media/view.asp?idx=39825"
