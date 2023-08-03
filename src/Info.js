@@ -2,14 +2,42 @@ import { Link } from "react-router-dom";
 function Info() {
   return (
     <div>
-      <div className="infoHeader">
+      <div
+        className="infoHeader"
+        style={{
+          height: "50px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          fontSize: "28px",
+          padding: "0px 15px",
+        }}
+      >
         <div>Whayong Sim</div>
-        <div>
+        <div style={{ fontSize: 18 }}>
           <Link to="/">Home</Link>
+          <Link to="/computer">Computer</Link>
+          <Link to="/fashion">Fashion</Link>
+          <Link to="/magazine">Magazine</Link>
         </div>
       </div>
-      <div className="infoContent">
-        <div>
+      <div
+        className="infoContent"
+        style={{
+          display: "flex",
+          paddingTop: "50px",
+          paddingLeft: "15px",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            marginRight: "30px",
+            wordWrap: "break-word",
+            whiteSpace: "pre-wrap",
+            lineHeight: "1.8",
+          }}
+        >
           대한민국 서울을 기반으로 개발자, 디렉터, 에디터로 활동하고 있습니다.
           주로 패션 브랜드의 디렉터로 일하면서 남성복 디자이너 브랜드 슬로븐
           모드(Sloven Mode)의 설립자로서 웹사이트 개발부터 디렉팅과 마케팅 등의
@@ -24,7 +52,7 @@ function Info() {
           whayongsim@gmail.com 이메일로 연락주시기 바랍니다.
         </div>
         <div>
-          <img src="/profile.jpg" />
+          <img src="/profile.jpg" width={"60%"} />
         </div>
       </div>
     </div>
