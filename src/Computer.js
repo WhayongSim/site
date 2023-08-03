@@ -63,6 +63,9 @@ function Computer({ open, openMenu, closeMenu }) {
               }}
             >
               <div>
+                <img src='/scroll_down.png' />
+              </div>
+              <div>
                 <a
                   href="https://www.boannews.com/media/view.asp?idx=42582&kind=4"
                   target="_blank"
