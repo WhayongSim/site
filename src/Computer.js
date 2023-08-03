@@ -127,7 +127,7 @@ function Computer({ open, openMenu, closeMenu }) {
                 justifyContent: "center",
                 padding: "0px 30px",
                 height: "70%",
-                positon: "relative",
+                position: "relative",
               }}
             >
               <div style={{ position: "absolute", top: "-55px" }}>
