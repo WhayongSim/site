@@ -1,7 +1,7 @@
 function Info({ open, openMenu, closeMenu }) {
   return (
     <div>
-      <div className="infoHeader"></div>
+      <div className="infoHeader">Whayong Sim</div>
       <div className="infoContent">
         <div>
           대한민국 서울을 기반으로 개발자, 디렉터, 에디터로 활동하고 있습니다.
