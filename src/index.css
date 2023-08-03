@@ -132,7 +132,7 @@ body {
      width: 100%;
 }
 
-.card:hover .cardTop:after {
+.card:hover .cardTop::after {
 
  }
  .cardTitle {
