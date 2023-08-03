@@ -5,6 +5,7 @@ import Main from "./Main";
 import Computer from "./Computer";
 import Fashion from "./Fashion";
 import Magazine from "./Magazine";
+import Info from "./Info";
 import mgData from "./mg.json";
 function App() {
   const [open, setOpen] = useState(false);
@@ -14,29 +15,19 @@ function App() {
         {open && (
           <div className="sideMenu" onClick={() => setOpen(false)}>
             <div>
-              <Link to="/">
-                Home
-              </Link>
+              <Link to="/">Home</Link>
             </div>
             <div>
-              <Link to="/info">
-                 Info
-              </Link>
+              <Link to="/info">Info</Link>
             </div>
             <div>
-              <Link to="/computer">
-                Computer
-              </Link>
+              <Link to="/computer">Computer</Link>
             </div>
             <div>
-              <Link to="/fashion">
-                Fashion
-              </Link>
+              <Link to="/fashion">Fashion</Link>
             </div>
             <div>
-              <Link to="/magazine">
-                Magazine
-              </Link>
+              <Link to="/magazine">Magazine</Link>
             </div>
           </div>
         )}
@@ -47,6 +38,16 @@ function App() {
             path="/computer"
             element={
               <Computer
+                open={open}
+                openMenu={() => setOpen(true)}
+                closeMenu={() => setOpen(false)}
+              />
+            }
+          />
+          <Route
+            path="/info"
+            element={
+              <Main
                 open={open}
                 openMenu={() => setOpen(true)}
                 closeMenu={() => setOpen(false)}
