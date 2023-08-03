@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function Info({lang}) {
+function Info({ lang }) {
   return (
     <div>
       <div
@@ -14,7 +14,9 @@ function Info({lang}) {
           fontWeight: 600,
         }}
       >
-        <div><Link to="/">Whayong Sim</Link></div>
+        <div>
+          <Link to="/">Whayong Sim</Link>
+        </div>
         <div style={{ fontSize: 17 }}>
           <Link style={{ marginRight: 30 }} to="/">
             Home
@@ -28,8 +30,26 @@ function Info({lang}) {
           <Link to="/magazine">Magazine</Link>
         </div>
       </div>
-      <div style={{fontWeight: lang === "en" ? 600 : 400}}>ENG</div>
-      <div style={{fontWeight: lang === "ko" ? 600 : 400}}>KOR</div>
+      <div
+        style={{
+          fontWeight: lang === "en" ? 600 : 400,
+          textAlign: "right",
+          paddingRight: "15px",
+          fontSize: "18px",
+        }}
+      >
+        ENG
+      </div>
+      <div
+        style={{
+          fontWeight: lang === "ko" ? 600 : 400,
+          textAlign: "right",
+          paddingRight: "15px",
+          fontSize: "18px",
+        }}
+      >
+        KOR
+      </div>
       <div
         className="infoContent"
         style={{
