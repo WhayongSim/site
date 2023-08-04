@@ -141,7 +141,7 @@ function Computer({ open, openMenu, closeMenu, lang }) {
                     href="https://www.boannews.com/media/view.asp?idx=42582&kind=4"
                     target="_blank"
                   >
-                    Article URL
+                      {lang === "en" ? <span>Article Link</span> : <span>기사 링크</span> }
                   </a>
                 </div>
               </div>
@@ -219,7 +219,7 @@ function Computer({ open, openMenu, closeMenu, lang }) {
                     href="https://www.boannews.com/media/view.asp?idx=39825"
                     target="_blank"
                   >
-                    Article URL
+                    {lang === "en" ? <span>Article Link</span> : <span>기사 링크</span> }
                   </a>
                 </div>
               </div>
